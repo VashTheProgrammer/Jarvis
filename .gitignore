@@ -51,3 +51,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 .DS_Store
+docs/doc1.txt
+/chroma_db
+LMStudio_RAG.py

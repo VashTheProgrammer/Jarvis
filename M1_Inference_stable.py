@@ -14,7 +14,7 @@ from accelerate import infer_auto_device_map
 
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.1"  # Nome del modello su HuggingFace
 MODEL_DIR = os.path.expanduser("~/models")         # Cartella locale per il caching dei pesi
-PROMPT = "Qual è la capitale dell'Italia?"         # Prompt di esempio
+PROMPT = "Come stai oggi ? Sei felice ?"         # Prompt di esempio
 RAM_LIMIT_GB = 12                                  # Soglia di memoria: se superata -> MemoryError
 BATCH_SIZE = 1                                     # Non usato esplicitamente, ma presente per eventuali estensioni
 
